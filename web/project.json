@@ -1,11 +1,13 @@
 {
     "dependencies": {
-        "Microsoft.AspNet.Server.IIS" : "1.0.0-alpha2",
+        "Kestrel": "1.0.0-*",
         "Microsoft.AspNet.Owin": "1.0.0-alpha2",
-        "Nancy" :  "0.23.2"
+        "Nancy": "0.23.2"
     },
-    "configurations" : {
-        "net451" : { },
-        "k10" : { }
+    "commands": {
+        "kestrel": "Microsoft.AspNet.Hosting --server Kestrel"
+    },
+    "configurations": {
+        "net451": {}
     }
 }
