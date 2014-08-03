@@ -7,7 +7,9 @@
     "commands": {
         "kestrel": "Microsoft.AspNet.Hosting --server Kestrel"
     },
-    "configurations": {
-        "net451": {}
+    "frameworks": {
+        "net45": {
+            "System.Runtime": ""
+        }
     }
 }
