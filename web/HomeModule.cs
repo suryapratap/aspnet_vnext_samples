@@ -1,11 +1,12 @@
 namespace WebApplication1
 {
     using Nancy;
+    
     public class HomeModule : NancyModule
     {
-            public HomeModule()
-            {
+        public HomeModule()
+        {
             Get["/"] = _ => "Hello World";
-            }
+        }
     }
 }
