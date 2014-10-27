@@ -5,7 +5,7 @@ namespace WebApplication1
  
     public class Startup
     {
-        public void Configure(IBuilder app)
+        public void Configure(IApplicationBuilder app)
         {
             app.UseOwin(x => x.UseNancy());
         }

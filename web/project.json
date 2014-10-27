@@ -8,7 +8,7 @@
         "kestrel": "Microsoft.AspNet.Hosting --server Kestrel"
     },
     "frameworks": {
-        "net45": {
+        "aspnet50": {
             "System.Runtime": ""
         }
     }
